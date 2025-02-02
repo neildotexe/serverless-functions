@@ -1,0 +1,19 @@
+name: Hello World Action 
+
+on: 
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+  
+      - name: 22f1001202@study.iitm.ac.in 
+        run: echo "Hello, World!"
+  
+      - name: Current data 
+        run: date
